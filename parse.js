@@ -44,7 +44,7 @@ function parseData(html){
 //}
 var items = $('table')
 for (var i=0;i<items.length;i++){
-  console.log(items[i].find("tr:gt(0)"))
+  console.log(items[i].find("tr:gt(j)"))//j 1,2,3,4,5
 
 }  
 }
